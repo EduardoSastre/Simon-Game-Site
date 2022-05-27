@@ -94,7 +94,7 @@ $(".btn").click(function() {
 
                   newLevel();
 
-            } else {
+            } else if (startGame === false) {
 
                   sequence++;
 
