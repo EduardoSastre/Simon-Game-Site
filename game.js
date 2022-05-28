@@ -94,13 +94,13 @@ $(".btn").click(function() {
 
                   newLevel();
 
-            } else if (startGame === false) {
+            } else {
 
                   sequence++;
 
             }
 
-      } else {
+      } else if (startGame === false) {
 
             gameOver();
       }
